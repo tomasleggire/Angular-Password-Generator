@@ -1,27 +1,50 @@
-# Sandbox
+# Welcome to [Astro](https://astro.build)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+[Configuration](https://codesandbox.io/docs/projects/learn/setting-up/tasks) has been added to optimize it for [CodeSandbox](https://codesandbox.io/p/dashboard).
 
-## Development server
+[![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/github/codesandbox/codesandbox-template-astro/main)
 
-Run `ng serve` for a dev server. Navigate to http://localhost:4200. The application will automatically reload if you change any of the source files.
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-## Code scaffolding
+## 🚀 Project Structure
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Inside of your Astro project, you'll see the following folders and files:
 
-## Build
+```
+/
+├── public/
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   └── Layout.astro
+│   └── pages/
+│       └── index.astro
+└── package.json
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-## Running unit tests
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components or layouts.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Any static assets, like images, can be placed in the `public/` directory.
 
-## Running end-to-end tests
+## 🧞 Commands
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+All commands are run from the root of the project, from a terminal:
 
-## Further help
+| Command                | Action                                             |
+| :--------------------- | :------------------------------------------------- |
+| `npm install`          | Installs dependencies                              |
+| `npm run dev`          | Starts local dev server at `localhost:3000`        |
+| `npm run build`        | Build your production site to `./dist/`            |
+| `npm run preview`      | Preview your build locally, before deploying       |
+| `npm run astro ...`    | Run CLI commands like `astro add`, `astro preview` |
+| `npm run astro --help` | Get help using the Astro CLI                       |
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 👀 Want to learn more?
+
+- [CodeSandbox — Docs](https://docs.codesandbox.io)
+- [CodeSandbox — Discord](https://discord.gg/Ggarp3pX5H)
+- [Astro — GitHub](https://github.com/withastro/astro)
+- [Astro — Docs](https://docs.astro.build)
+- [Astro - Discord](https://astro.build/chat)
