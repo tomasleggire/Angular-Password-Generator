@@ -9,26 +9,28 @@
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
-    "dev": {
-      "name": "Start Dev Server",
-      "command": "npm run dev",
+    "start": {
+      "name": "start",
+      "command": "npm run start",
       "runAtStart": true,
       "preview": {
-        "port": 3000
+        "port": 4200
       }
     },
     "build": {
-      "name": "Build",
-      "command": "npm run build",
+      "name": "build",
+      "command": "ng build",
       "runAtStart": false
     },
-    "install": {
-      "name": "Install Dependencies",
-      "command": "npm install",
-      "restartOn": {
-        "files": ["package-lock.json"],
-        "branch": false
-      }
+    "test": {
+      "name": "test",
+      "command": "ng test",
+      "runAtStart": false
+    },
+    "help": {
+      "name": "help",
+      "command": "ng help",
+      "runAtStart": false
     }
   }
 }

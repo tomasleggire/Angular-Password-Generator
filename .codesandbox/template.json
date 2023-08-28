@@ -1,9 +1,9 @@
 {
-  "title": "Astro",
-  "description": "The official Astro template",
-  "iconUrl": "https://github.com/codesandbox/sandbox-templates/blob/main/astro/.codesandbox/icon.png?raw=true",
+  "title": "Angular",
+  "description": "The quickest way to get started with Angular!",
+  "iconUrl": "https://github.com/codesandbox/sandbox-templates/blob/main/angular/.codesandbox/icon.png?raw=true",
   "tags": [
-    "astro",
+    "angular",
     "javascript",
     "typescript"
   ],
